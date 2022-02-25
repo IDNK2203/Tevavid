@@ -72,3 +72,5 @@ notes/*.md
 .prettierignore
 
 .cache
+# Local Netlify folder
+.netlify
