@@ -23,36 +23,35 @@
     <!--Theme CSS-->
     <link href="assets/css/theme.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
-    <!--Favicons-->
+    <!--./new_assets/Favicons-->
     <link
-      href="favicons/apple-touch-icon.png"
+      href="./apple-touch-icon.png"
       rel="apple-touch-icon"
       sizes="180x180"
     />
     <link
-      href="favicons/favicon-32x32.png"
+      href="./favicon-32x32.png"
       rel="icon"
       sizes="32x32"
       type="image/png"
     />
     <link
-      href="favicons/favicon-16x16.png"
+      href="./favicon-16x16.png"
       rel="icon"
       sizes="16x16"
       type="image/png"
     />
-    <link href="favicons/site.webmanifest" rel="manifest" />
+    <link href="./site.webmanifest" rel="manifest" />
     <link
       color="#5bbad5"
-      href="favicons/safari-pinned-tab.svg"
+      href="./safari-pinned-tab.svg"
       rel="mask-icon"
     />
-    <link href="favicons/favicon.ico" rel="shortcut icon" />
-    <meta content="#da532c" name="msapplication-TileColor" />
-    <meta content="favicons/browserconfig.xml" name="msapplication-config" />
+    <link href="./favicon.ico" rel="shortcut icon" />
+     <meta content="#da532c" name="msapplication-TileColor" />
+    <!--<meta content="favicons/browserconfig.xml" name="msapplication-config" /> -->
     <meta content="#ffffff" name="theme-color" />
   </head>
-
   <body class="page">
     <div style="display: none">
       <!-- svg sprite-->
@@ -72,7 +71,15 @@
         <div class="header__container">
           <div class="header__wrapper container-fluid">
             <div class="header__inner">
-              <a class="logo header__logo" href="index.html">Tevavid</a>
+              <a class="logo header__logo" href="index.html">
+                <img
+                  class="text_logo"
+                  src="https://res.cloudinary.com/tevavid/image/upload/w_auto,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png"
+                  alt="logo_texts"
+                  srcset=""
+                  height="35px"
+                />
+              </a>
               <button class="header__menu-button" type="button">
                 <span class="header__menu-button-inner"></span>
               </button>
@@ -110,14 +117,6 @@
                 <a
                   class="menu-panel__menu-link collapsed collapsed"
                   data-toggle="collapse"
-                  href="news-grid.html"
-                  >News</a
-                >
-              </div>
-              <div class="menu-panel__menu-item">
-                <a
-                  class="menu-panel__menu-link collapsed collapsed"
-                  data-toggle="collapse"
                   href="page-services.html"
                   >Services</a
                 >
@@ -125,25 +124,36 @@
             </div>
             <div class="menu-panel__footer">
               <div class="socials menu-panel__socials">
-                <a class="socials__social icofont-twitter" href="#">
+                <a
+                  class="socials__social icofont-twitter"
+                  href="https:// twitter.com/tevavidarc"
+                >
                   <div class="visually-hidden">twitter</div>
                 </a>
-                <a class="socials__social icofont-facebook" href="#">
-                  <div class="visually-hidden">facebook</div>
+                <a
+                  class="socials__social icofont-behance"
+                  href="https://www.behance.net/tevavidarchite"
+                >
+                  <div class="visually-hidden">behance</div>
                 </a>
-                <a class="socials__social icofont-google-plus" href="#">
-                  <div class="visually-hidden">google plus</div>
+                <a
+                  class="socials__social icofont-instagram"
+                  href="https://www.instagram.com/tevavid/"
+                >
+                  <div class="visually-hidden">instagram</div>
+                </a>
+                <a
+                  class="socials__social icofont-facebook"
+                  href="https://www.facebook.com/Tevavid-109690798327861/"
+                >
+                  <div class="visually-hidden">facebook</div>
                 </a>
               </div>
               <div class="menu-panel__bottom">
                 <div class="menu-panel__copyright">
-                  © 2019
+                  © 2022
                   <strong>Tevavid.</strong>
                   All Rights Reserved.
-                </div>
-                <div class="menu-panel__author">
-                  Design by
-                  <a href="#">Logan Cee</a>
                 </div>
               </div>
             </div>
@@ -162,26 +172,28 @@
                     rgba(0, 0, 0, 0.7),
                     rgba(0, 0, 0, 0.7)
                   ),
-                  url('./new_assets/img/services/hero-section-about.jpg');
+                  url('https://res.cloudinary.com/tevavid/image/upload/c_limit,dpr_auto,h_1080,q_100,w_1920/v1646601663/new_assets/img/about/hero-section-service_evvp87.webp');
               "
             ></div>
           </div>
-          <div class="main-slide__container container">
-            <div class="main-slide__slide-inner">
-              <div class="main-slide__subtitle-wrapper">
-                <div class="main-slide__subtitle">OUR SPECIALIZATION</div>
-              </div>
-              <div class="main-slide__title-wrapper">
-                <div class="main-slide__title">
-                  Best Solutions for
-                  <br />
-                  Your Building
+          <div class="faded-block main-slide__container container">
+            <div class="main-slide__container container">
+              <div class="main-slide__slide-inner">
+                <div class="main-slide__subtitle-wrapper">
+                  <div class="main-slide__subtitle">OUR SPECIALIZATION</div>
                 </div>
-              </div>
-              <div class="main-slide__text-wrapper">
-                <div class="main-slide__text">
-                  Always happy, enthusiastic and creative, is something to talk
-                  about Tevavid's Team
+                <div class="main-slide__title-wrapper">
+                  <div class="main-slide__title">
+                    Best Solutions for
+                    <br />
+                    Your Building
+                  </div>
+                </div>
+                <div class="main-slide__text-wrapper">
+                  <div class="main-slide__text">
+                    Always happy, enthusiastic and creative, is something to
+                    talk about Tevavid's Team
+                  </div>
                 </div>
               </div>
             </div>
@@ -267,57 +279,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="zoom-counters">
-            <div class="container">
-              <div class="row">
-                <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
-                  <div class="zoom-counters__value">
-                    12000
-                    <div
-                      class="zoom-counters__value-inner js-counter"
-                      data-counter-value="12000"
-                    >
-                      12,000
-                    </div>
-                  </div>
-                  <div class="zoom-counters__text">
-                    Partner
-                    <br />
-                    worldwide
-                  </div>
-                </div>
-                <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
-                  <div class="zoom-counters__value">
-                    4620
-                    <div
-                      class="zoom-counters__value-inner js-counter"
-                      data-counter-value="4620"
-                    >
-                      4,620
-                    </div>
-                  </div>
-                  <div class="zoom-counters__text">
-                    employees and
-                    <br />
-                    staffs
-                  </div>
-                </div>
-                <div class="zoom-counters__item col-12 col-lg-6 col-xl-4">
-                  <div class="zoom-counters__value">
-                    2750
-                    <div
-                      class="zoom-counters__value-inner js-counter"
-                      data-counter-value="2750"
-                    >
-                      2,750
-                    </div>
-                  </div>
-                  <div class="zoom-counters__text">project completed</div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        </div>
+         </div>
         <div class="collapse-block">
           <div class="container">
             <div class="row">
@@ -424,7 +386,7 @@
                   href="./new_assets/video/3d-architecture-render.mp4"
                   target="_blank"
                 >
-                  <img alt="" src="./new_assets/img/work/Arcelia_main.jpg" />
+                  <img alt="" src="https://res.cloudinary.com/tevavid/image/upload/c_fit,w_500,h_515,q_auto:best,w_1920/f_webp/v1646601661/new_assets/img/slider_img_3_gec1yu.jpg" />
                   <span class="video-block__play"></span>
                 </a>
               </div>
@@ -450,86 +412,62 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="footer-studio__column col-6 col-xl-3">
-              <div class="footer-studio__group-title">Help Center</div>
-              <ul class="footer-studio__list">
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">FAQs</a>
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#"
-                    >Term & Conditions</a
-                  >
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">Privacy</a>
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">How It Works</a>
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">Return</a>
-                </li>
-              </ul>
-            </div> -->
+
             <div class="footer-studio__column col-12 col-sm-6 col-xl-3">
               <div class="footer-studio__group-title">Get In Touch</div>
               <p>
-                17 Princess Road, London, Greater London,
+                No. 7B Edegbe Avenue, off Giwa-Amu GRA Benin city
                 <br />
-                NW18JR, United Kingdom
+                Edo State, 300251
               </p>
               <p>
-                <a href="mailto:hello@Tevavid.uk">hello@Tevavid.uk</a>
+                <a href="mailto:contact@Tevavid.com">contact@Tevavid.com</a>
               </p>
-              <p>(+0084) 912-3548-073</p>
+              <p>(+234 )812 886 0738</p>
             </div>
-            <!-- <div class="footer-studio__column col-12 col-sm-6 col-xl-3">
-              <div class="footer-studio__group-title">Newsletter</div>
-              <p>Subscribe and get 10% off from our furniture store</p>
-              <form action="#" class="footer-studio__form">
-                <input
-                  class="footer-studio__input"
-                  placeholder="Enter your email..."
-                  type="text"
-                />
-                <button class="footer-studio__submit">
-                  Subscribe
-                  <span
-                    class="footer-studio__submit-icon icon-chevron-right"
-                  ></span>
-                </button>
-              </form>
-            </div> -->
           </div>
           <div class="footer-studio__bottom">
             <div class="row">
               <div class="footer-studio__column col-12 col-sm-6">
                 <div class="footer-studio__copyright">
-                  © 2019
+                  © 2022
                   <strong>Tevavid.</strong>
-                  All Rights Reserved. Design by
-                  <a href="#">Logan Cee</a>
+                  All Rights Reserved.
                 </div>
               </div>
               <div
                 class="footer-studio__column col-12 col-sm-6 col-lg-3 offset-lg-3"
               >
                 <div class="footer-studio__socials">
-                  <a class="footer-studio__social icofont-twitter" href="#">
+                  <a
+                    class="footer-studio__social icofont-twitter"
+                    href="https:// twitter.com/tevavidarc"
+                  >
                     <div class="visually-hidden">twitter</div>
                   </a>
-                  <a class="footer-studio__social icofont-facebook" href="#">
+                  <a
+                    class="footer-studio__social icofont-facebook"
+                    href="https://www.facebook.com/Tevavid-109690798327861/"
+                  >
                     <div class="visually-hidden">facebook</div>
                   </a>
-                  <a class="footer-studio__social icofont-behance" href="#">
+                  <a
+                    class="footer-studio__social icofont-behance"
+                    href="https://www.behance.net/tevavidarchite"
+                  >
                     <div class="visually-hidden">behance</div>
                   </a>
-                  <a class="footer-studio__social icofont-google-plus" href="#">
-                    <div class="visually-hidden">google plus</div>
-                  </a>
-                  <a class="footer-studio__social icofont-linkedin" href="#">
+                  <a
+                    class="footer-studio__social icofont-linkedin"
+                    href="https://www.linkedin.com/company/tevavid"
+                  >
                     <div class="visually-hidden">linkedin</div>
+                  </a>
+                  <a
+                    class="footer-studio__social icofont-instagram"
+                    href="https://www.instagram.com/tevavid/"
+                  >
+                    <div class="visually-hidden">Instagram</div>
                   </a>
                 </div>
               </div>
@@ -539,6 +477,22 @@
       </footer>
     </div>
     <!--JS-->
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function (e) {
+        document.addEventListener("scroll", function (e) {
+          let logoTextImg = document.querySelector(".logo img")
+          let headerHeight = document.querySelector(".header").scrollHeight;
+          let currentScroll = window.scrollY;
+          // When the user is [modifier]px from the bottom, fire the event.
+          if (currentScroll > headerHeight ) {
+            logoTextImg.src = "https://res.cloudinary.com/tevavid/image/upload/w_auto,h_35,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+          }
+          else{
+            logoTextImg.src = "https://res.cloudinary.com/tevavid/image/upload/w_auto,h_35,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png"
+          }
+        });
+      });
+    </script>
     <script src="assets/js/polyfill.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.viewport.min.js"></script>

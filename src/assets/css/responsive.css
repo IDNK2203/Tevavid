@@ -337,6 +337,21 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .zoom-slider__slide {
+    max-height: 65vh;
+    background-position-y: -30px;
+  }
+  .main-slide {
+    height: 75px;
+    min-height: 500px;
+  }
+  .parallax-image__image {
+    transform: translate3d(0px, 0px, 0px) !important;
+
+  }
+  .main-slide__container {
+    padding-top: 110px;
+  }
   .article-listing-item__content {
     padding: 20px;
   }

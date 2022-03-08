@@ -23,33 +23,29 @@
     <!--Theme CSS-->
     <link href="assets/css/theme.css" rel="stylesheet" />
     <link href="assets/css/responsive.css" rel="stylesheet" />
-    <!--Favicons-->
+    <!--./new_assets/Favicons-->
     <link
-      href="favicons/apple-touch-icon.png"
+      href="./apple-touch-icon.png"
       rel="apple-touch-icon"
       sizes="180x180"
     />
     <link
-      href="favicons/favicon-32x32.png"
+      href="./favicon-32x32.png"
       rel="icon"
       sizes="32x32"
       type="image/png"
     />
     <link
-      href="favicons/favicon-16x16.png"
+      href="./favicon-16x16.png"
       rel="icon"
       sizes="16x16"
       type="image/png"
     />
-    <link href="favicons/site.webmanifest" rel="manifest" />
-    <link
-      color="#5bbad5"
-      href="favicons/safari-pinned-tab.svg"
-      rel="mask-icon"
-    />
-    <link href="favicons/favicon.ico" rel="shortcut icon" />
+    <link href="./site.webmanifest" rel="manifest" />
+    <link color="#5bbad5" href="./safari-pinned-tab.svg" rel="mask-icon" />
+    <link href="./favicon.ico" rel="shortcut icon" />
     <meta content="#da532c" name="msapplication-TileColor" />
-    <meta content="favicons/browserconfig.xml" name="msapplication-config" />
+    <!--<meta content="favicons/browserconfig.xml" name="msapplication-config" /> -->
     <meta content="#ffffff" name="theme-color" />
   </head>
 
@@ -72,7 +68,15 @@
         <div class="header__container">
           <div class="header__wrapper container-fluid">
             <div class="header__inner">
-              <a class="logo header__logo" href="index.html">Tevavid</a>
+              <a class="logo header__logo" href="index.html">
+                <img
+                  class="text_logo"
+                  src="https://res.cloudinary.com/tevavid/image/upload/w_auto,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+                  alt="logo_texts"
+                  srcset=""
+                  height="35px"
+                />
+              </a>
               <button class="header__menu-button" type="button">
                 <span class="header__menu-button-inner"></span>
               </button>
@@ -110,14 +114,6 @@
                 <a
                   class="menu-panel__menu-link collapsed collapsed"
                   data-toggle="collapse"
-                  href="news-grid.html"
-                  >News</a
-                >
-              </div>
-              <div class="menu-panel__menu-item">
-                <a
-                  class="menu-panel__menu-link collapsed collapsed"
-                  data-toggle="collapse"
                   href="page-services.html"
                   >Services</a
                 >
@@ -125,25 +121,36 @@
             </div>
             <div class="menu-panel__footer">
               <div class="socials menu-panel__socials">
-                <a class="socials__social icofont-twitter" href="#">
+                <a
+                  class="socials__social icofont-twitter"
+                  href="https:// twitter.com/tevavidarc"
+                >
                   <div class="visually-hidden">twitter</div>
                 </a>
-                <a class="socials__social icofont-facebook" href="#">
-                  <div class="visually-hidden">facebook</div>
+                <a
+                  class="socials__social icofont-behance"
+                  href="https://www.behance.net/tevavidarchite"
+                >
+                  <div class="visually-hidden">behance</div>
                 </a>
-                <a class="socials__social icofont-google-plus" href="#">
-                  <div class="visually-hidden">google plus</div>
+                <a
+                  class="socials__social icofont-instagram"
+                  href="https://www.instagram.com/tevavid/"
+                >
+                  <div class="visually-hidden">instagram</div>
+                </a>
+                <a
+                  class="socials__social icofont-facebook"
+                  href="https://www.facebook.com/Tevavid-109690798327861/"
+                >
+                  <div class="visually-hidden">facebook</div>
                 </a>
               </div>
               <div class="menu-panel__bottom">
                 <div class="menu-panel__copyright">
-                  © 2019
+                  © 2022
                   <strong>Tevavid.</strong>
                   All Rights Reserved.
-                </div>
-                <div class="menu-panel__author">
-                  Design by
-                  <a href="#">Logan Cee</a>
                 </div>
               </div>
             </div>
@@ -158,12 +165,12 @@
               data-rellax-percentage="0.5"
               data-rellax-speed="-3"
               style="
-                background-image: url('./new_assets/img/work/Hilltop_house_main.jpg');
+                background-image: url('https://res.cloudinary.com/tevavid/image/upload/dpr_auto,t_project-hero-image/v1646601644/new_assets/img/work/Hilltop_house_main_re5gqa.webp');
               "
             ></div>
           </div>
           <div class="main-slide__container container">
-            <div class="main-slide__slide-inner">
+            <!-- <div class="main-slide__slide-inner">
               <div class="main-slide__subtitle-wrapper">
                 <div class="main-slide__subtitle">Architecture</div>
               </div>
@@ -184,7 +191,7 @@
                   we know will help us create added value for your project
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="project-detail">
@@ -200,7 +207,7 @@
                 <div class="col-12 col-lg-4">
                   <div class="project-detail__head-item">
                     <strong>Location:</strong>
-                    Enugu
+                    Enugu , Nigeria
                   </div>
                   <div class="project-detail__head-item">
                     <strong>Client:</strong>
@@ -209,20 +216,21 @@
                 </div>
                 <div class="col-12 col-lg-4">
                   <div class="project-detail__head-item">
-                    <strong>Completed:</strong>
-                    September 2021
-                  </div>
-                  <div class="project-detail__head-item">
                     <strong>Architect:</strong>
                     Tevavid Architects
                   </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <!-- <div class="col-12 col-lg-4">                  
+                  <div class="project-detail__head-item">
+                    <strong>Completed:</strong>
+                    September 2021
+                  </div>
+
                   <div class="project-detail__head-item">
                     <strong>Area:</strong>
                     40 sqm
                   </div>
-                  <!-- <div class="project-detail__head-item">
+                  <div class="project-detail__head-item">
                     <strong>Share:</strong>
                     <a
                       class="project-detail__head-item-link project-detail__head-item-link_twitter"
@@ -247,20 +255,17 @@
                       href="#"
                       >RSS</a
                     >
-                  </div> -->
-                </div>
+                  </div>
+                </div> -->
               </div>
             </div>
             <div class="project-detail__title">Hilltop House, Enugu</div>
             <div class="project-detail__text">
-              Art Museum is an international project located in Poland. It has
-              various different levels, whom are embedded into the unevenness of
-              the terrain. This project seeks to integrate passive strategies
-              for energy saving, such as the inclusion of as much natural light
-              as possible as well as having green roofs with lots of vegetation
-              in them. The geometry of this house combines design with nature
-              into the structure of the house, which makes it unique amongst
-              other neighboring places.
+              The Hilltop house project at Enugu designed by TEVAVID architects
+              to do with a house that was placed on a sloping land on a hill, We
+              were challenged with water flow and accessibility of the plot.
+              After a lot of thinking processes we finally came up with a design
+              that solved all issues involved with the site.
             </div>
             <div class="simple-slider">
               <button
@@ -280,19 +285,19 @@
                   <div class="simple-slider__slide swiper-slide">
                     <img
                       alt=""
-                      src="./new_assets/img/projects/hilltop/Hilltop_house_img_1.jpg"
+                      src="https://res.cloudinary.com/tevavid/image/upload/dpr_auto,q_auto:best,t_project-page-image-slider/v1646601661/new_assets/img/projects/hilltop/Hilltop_house_img_2_rjelvh.jpg"
                     />
                   </div>
                   <div class="simple-slider__slide swiper-slide">
                     <img
                       alt=""
-                      src="./new_assets/img/projects/hilltop/Hilltop_house_img_2.jpg"
+                      src="https://res.cloudinary.com/tevavid/image/upload/dpr_auto,q_auto:best,t_project-page-image-slider/v1646601653/new_assets/img/projects/hilltop/Hilltop_house_img_3_bczkq6.jpg"
                     />
                   </div>
                   <div class="simple-slider__slide swiper-slide">
                     <img
                       alt=""
-                      src="./new_assets/img/projects/hilltop/Hilltop_house_img_3.jpg"
+                      src="https://res.cloudinary.com/tevavid/image/upload/dpr_auto,q_auto:best,t_project-page-image-slider/v1646601636/new_assets/img/projects/hilltop/Hilltop_house_img_1_r6ohdw.jpg"
                     />
                   </div>
                 </div>
@@ -305,22 +310,32 @@
               >Let’s work together !</a
             >
           </div>
-          <!-- <div class="project-detail__navigation">
-            <a class="project-detail__navigation-link" href="#">
+          <div class="project-detail__navigation">
+            <a
+              class="project-detail__navigation-link"
+              href="./gastoblo-project.html"
+            >
               <span
                 class="project-detail__navigation-link-image"
-                style="background-image: url('img/listing-image-2.jpg')"
+                style="
+                  background-image: url('https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_650/v1646601649/new_assets/img/work/gastoblo_main_jqws4l.webp');
+                "
               ></span>
               <span class="project-detail__navigation-link-text">Prev</span>
             </a>
-            <a class="project-detail__navigation-link" href="#">
+            <a
+              class="project-detail__navigation-link"
+              href="./ashland-project.html"
+            >
               <span
                 class="project-detail__navigation-link-image"
-                style="background-image: url('img/listing-image-1.jpg')"
+                style="
+                  background-image: url('https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_650/v1646601639/new_assets/img/work/Ashland_hotel_main_pczsbg.webp');
+                "
               ></span>
               <span class="project-detail__navigation-link-text">Next</span>
             </a>
-          </div> -->
+          </div>
         </div>
       </main>
       <footer class="footer-studio footer">
@@ -341,86 +356,62 @@
                 </li>
               </ul>
             </div>
-            <!-- <div class="footer-studio__column col-6 col-xl-3">
-              <div class="footer-studio__group-title">Help Center</div>
-              <ul class="footer-studio__list">
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">FAQs</a>
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#"
-                    >Term & Conditions</a
-                  >
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">Privacy</a>
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">How It Works</a>
-                </li>
-                <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="#">Return</a>
-                </li>
-              </ul>
-            </div> -->
+
             <div class="footer-studio__column col-12 col-sm-6 col-xl-3">
               <div class="footer-studio__group-title">Get In Touch</div>
               <p>
-                17 Princess Road, London, Greater London,
+                No. 7B Edegbe Avenue, off Giwa-Amu GRA Benin city
                 <br />
-                NW18JR, United Kingdom
+                Edo State, 300251
               </p>
               <p>
-                <a href="mailto:hello@Tevavid.uk">hello@Tevavid.uk</a>
+                <a href="mailto:contact@Tevavid.com">contact@Tevavid.com</a>
               </p>
-              <p>(+0084) 912-3548-073</p>
+              <p>(+234 )812 886 0738</p>
             </div>
-            <!-- <div class="footer-studio__column col-12 col-sm-6 col-xl-3">
-              <div class="footer-studio__group-title">Newsletter</div>
-              <p>Subscribe and get 10% off from our furniture store</p>
-              <form action="#" class="footer-studio__form">
-                <input
-                  class="footer-studio__input"
-                  placeholder="Enter your email..."
-                  type="text"
-                />
-                <button class="footer-studio__submit">
-                  Subscribe
-                  <span
-                    class="footer-studio__submit-icon icon-chevron-right"
-                  ></span>
-                </button>
-              </form>
-            </div> -->
           </div>
           <div class="footer-studio__bottom">
             <div class="row">
               <div class="footer-studio__column col-12 col-sm-6">
                 <div class="footer-studio__copyright">
-                  © 2019
+                  © 2022
                   <strong>Tevavid.</strong>
-                  All Rights Reserved. Design by
-                  <a href="#">Logan Cee</a>
+                  All Rights Reserved.
                 </div>
               </div>
               <div
                 class="footer-studio__column col-12 col-sm-6 col-lg-3 offset-lg-3"
               >
                 <div class="footer-studio__socials">
-                  <a class="footer-studio__social icofont-twitter" href="#">
+                  <a
+                    class="footer-studio__social icofont-twitter"
+                    href="https:// twitter.com/tevavidarc"
+                  >
                     <div class="visually-hidden">twitter</div>
                   </a>
-                  <a class="footer-studio__social icofont-facebook" href="#">
+                  <a
+                    class="footer-studio__social icofont-facebook"
+                    href="https://www.facebook.com/Tevavid-109690798327861/"
+                  >
                     <div class="visually-hidden">facebook</div>
                   </a>
-                  <a class="footer-studio__social icofont-behance" href="#">
+                  <a
+                    class="footer-studio__social icofont-behance"
+                    href="https://www.behance.net/tevavidarchite"
+                  >
                     <div class="visually-hidden">behance</div>
                   </a>
-                  <a class="footer-studio__social icofont-google-plus" href="#">
-                    <div class="visually-hidden">google plus</div>
-                  </a>
-                  <a class="footer-studio__social icofont-linkedin" href="#">
+                  <a
+                    class="footer-studio__social icofont-linkedin"
+                    href="https://www.linkedin.com/company/tevavid"
+                  >
                     <div class="visually-hidden">linkedin</div>
+                  </a>
+                  <a
+                    class="footer-studio__social icofont-instagram"
+                    href="https://www.instagram.com/tevavid/"
+                  >
+                    <div class="visually-hidden">Instagram</div>
                   </a>
                 </div>
               </div>
@@ -430,6 +421,24 @@
       </footer>
     </div>
     <!--JS-->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (e) {
+        document.addEventListener("scroll", function (e) {
+          let logoTextImg = document.querySelector(".logo img");
+          let headerHeight = document.querySelector(".header").scrollHeight;
+          let currentScroll = window.scrollY;
+          // When the user is [modifier]px from the bottom, fire the event.
+          if (currentScroll > headerHeight) {
+            logoTextImg.src =
+              "https://res.cloudinary.com/tevavid/image/upload/w_auto,h_35,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png";
+          } else {
+            logoTextImg.src =
+              "https://res.cloudinary.com/tevavid/image/upload/w_auto,h_35,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png";
+          }
+        });
+      });
+    </script>
     <script src="assets/js/polyfill.min.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.viewport.min.js"></script>
