@@ -64,6 +64,8 @@ typings/
 # text files 
 *.txt
 
+!robots.txt
+
 # next.js build output
 .next
 

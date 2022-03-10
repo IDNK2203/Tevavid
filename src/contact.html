@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta
-      content="Tevavid - 3D Architecture &amp; Interior HTML Template"
-      name="description"
+    <title>Contact | Tevavid Architecture</title>
+    <!-- meta tags -->
+    <meta name="description" content="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:site_name" content="Tevavid" />
+    <meta property="og:title" content="Contact | Tevavid" />
+    <meta property="“og:type”" content="website" />
+    <meta property="og:image"
+    content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
     />
-    <meta content="Paul, Logan Cee, Mikhail Ojereliev" name="author" />
-    <title>Tevavid - 3D Architecture &amp; Interior HTML Template</title>
+    <meta property="og:url" content="https://tevavid.com/contact.html" />
+    <meta property="og:description" content="" />
+    <meta property="twitter:image"
+    content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@tevavid" />
+    <!--CSS-->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400"
       rel="stylesheet"
     />
-    <!--CSS-->
     <link href="assets/css/icofont.min.css" rel="stylesheet" />
     <link href="assets/css/linearicons.min.css" rel="stylesheet" />
     <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
@@ -43,13 +55,9 @@
       type="image/png"
     />
     <link href="./site.webmanifest" rel="manifest" />
-    <link
-      color="#5bbad5"
-      href="./safari-pinned-tab.svg"
-      rel="mask-icon"
-    />
+    <link color="#5bbad5" href="./safari-pinned-tab.svg" rel="mask-icon" />
     <link href="./favicon.ico" rel="shortcut icon" />
-     <meta content="#da532c" name="msapplication-TileColor" />
+    <meta content="#da532c" name="msapplication-TileColor" />
     <!--<meta content="favicons/browserconfig.xml" name="msapplication-config" /> -->
     <meta content="#ffffff" name="theme-color" />
   </head>
@@ -111,7 +119,7 @@
                 <a
                   class="menu-panel__menu-link collapsed"
                   data-toggle="collapse"
-                  href="work-grid.html"
+                  href="work.html"
                   >Work</a
                 >
               </div>
@@ -119,7 +127,7 @@
                 <a
                   class="menu-panel__menu-link collapsed collapsed"
                   data-toggle="collapse"
-                  href="page-services.html"
+                  href="services.html"
                   >Services</a
                 >
               </div>
@@ -128,7 +136,7 @@
               <div class="socials menu-panel__socials">
                 <a
                   class="socials__social icofont-twitter"
-                  href="https:// twitter.com/tevavidarc"
+                  href="https://twitter.com/tevavidarc"
                 >
                   <div class="visually-hidden">twitter</div>
                 </a>
@@ -211,7 +219,6 @@
                   action="https://form.taxi/s/i5trm2u6"
                   method="POST"
                 >
-                  <!--  -->
                   <div class="row">
                     <div class="col-12 col-sm-4">
                       <input
@@ -353,12 +360,12 @@
               <div class="footer-studio__group-title">Company</div>
               <ul class="footer-studio__list">
                 <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="page-about.html"
+                  <a class="footer-studio__list-link" href="about.html"
                     >About</a
                   >
                 </li>
                 <li class="footer-studio__list-item">
-                  <a class="footer-studio__list-link" href="page-contact.html"
+                  <a class="footer-studio__list-link" href="contact.html"
                     >Contact</a
                   >
                 </li>
@@ -393,7 +400,7 @@
                 <div class="footer-studio__socials">
                   <a
                     class="footer-studio__social icofont-twitter"
-                    href="https:// twitter.com/tevavidarc"
+                    href="https://twitter.com/tevavidarc"
                   >
                     <div class="visually-hidden">twitter</div>
                   </a>
@@ -429,28 +436,48 @@
       </footer>
     </div>
     <!--JS-->
-    <script src="assets/js/polyfill.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.viewport.min.js"></script>
-    <script src="assets/js/jQuerySimpleCounter.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/animsition.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/rellax.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/smoothscroll.js"></script>
-    <script src="assets/js/svg4everybody.legacy.min.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>
-    <script src="assets/js/TimelineLite.min.js"></script>
-    <script src="assets/js/typed.min.js"></script>
-    <script src="assets/js/vivus.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function (e) {
+        const currentYear = new Date().getFullYear();
+        const copyRightDivFooter = document.querySelector(
+          ".footer-studio__copyright"
+        );
+        const copyRightDivMenu = document.querySelector(
+          ".menu-panel__copyright"
+        );
+        copyRightDivFooter.innerHTML = `© ${currentYear}                  
+       <strong>Tevavid.</strong>
+        All Rights Reserved.`;
+        copyRightDivMenu.innerHTML = `© ${currentYear}                  
+       <strong>Tevavid.</strong>
+        All Rights Reserved.`;
+      });
+    </script>
+    <script defer src="assets/js/polyfill.min.js"></script>
+    <script defer src="assets/js/jquery.min.js"></script>
+    <script defer src="assets/js/jquery.viewport.min.js"></script>
+    <script defer src="assets/js/jQuerySimpleCounter.min.js"></script>
+    <script defer src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script defer src="assets/js/isotope.pkgd.min.js"></script>
+    <script defer src="assets/js/animsition.min.js"></script>
+    <script defer src="assets/js/bootstrap.bundle.min.js"></script>
+    <script defer src="assets/js/rellax.min.js"></script>
+    <script defer src="assets/js/swiper.min.js"></script>
+    <script defer src="assets/js/smoothscroll.js"></script>
+    <script defer src="assets/js/svg4everybody.legacy.min.js"></script>
+    <script defer src="assets/js/TweenMax.min.js"></script>
+    <script defer src="assets/js/TimelineLite.min.js"></script>
+    <script defer src="assets/js/typed.min.js"></script>
+    <script defer src="assets/js/vivus.min.js"></script>
     <!-- Contact form validation -->
     <!--Google Maps JS-->
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8&amp;amp;ver=1"></script>
-    <script src="assets/js/gmap.js"></script>
+    <script
+      defer
+      src="https://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8&amp;amp;ver=1"
+    ></script>
+    <script defer src="assets/js/gmap.js"></script>
     <!--Theme JS-->
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/contact.js"></script>
+    <script defer src="assets/js/theme.js"></script>
+    <script defer src="assets/js/contact.js"></script>
   </body>
 </html>
