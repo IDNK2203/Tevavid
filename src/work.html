@@ -10,31 +10,76 @@
     <meta property="og:site_name" content="Tevavid" />
     <meta property="og:title" content="Work | Tevavid" />
     <meta property="“og:type”" content="website" />
-    <meta property="og:image"
-    content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
     />
     <meta property="og:url" content="https://tevavid.com/work.html" />
     <meta property="og:description" content="" />
-    <meta property="twitter:image"
-    content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+    <meta
+      property="twitter:image"
+      content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
     />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" content="@tevavid" />
+
     <!--CSS-->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400"
       rel="stylesheet"
     />
-    <link href="assets/css/icofont.min.css" rel="stylesheet" />
-    <link href="assets/css/linearicons.min.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
-    <link href="assets/css/animsition.min.css" rel="stylesheet" />
-    <link href="assets/css/swiper.min.css" rel="stylesheet" />
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link rel="preload" href="styles.css"> -->
+    <link
+      rel="preload"
+      href="assets/css/icofont.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="assets/css/linearicons.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="assets/css/magnific-popup.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="assets/css/animsition.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link
+      rel="preload"
+      href="assets/css/swiper.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--Theme CSS-->
-    <link href="assets/css/theme.css" rel="stylesheet" />
-    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- No Scripts -->
+    <noscript
+      ><link rel="stylesheet" href="assets/css/icofont.min.css"
+    /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/linearicons.min.css"
+    /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/magnific-popup.min.css"
+    /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/animsition.min.css"
+    /></noscript>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/swiper.min.css"
+    /></noscript>
     <!--./new_assets/Favicons-->
     <link
       href="./apple-touch-icon.png"
@@ -59,6 +104,20 @@
     <meta content="#da532c" name="msapplication-TileColor" />
     <!--<meta content="favicons/browserconfig.xml" name="msapplication-config" /> -->
     <meta content="#ffffff" name="theme-color" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1DY3TDEJT2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1DY3TDEJT2");
+    </script>
   </head>
   <body class="page">
     <div style="display: none">
@@ -81,6 +140,7 @@
             <div class="header__inner">
               <a class="logo header__logo" href="index.html">
                 <img
+                  loading="lazy"
                   class="text_logo"
                   src="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
                   alt="logo_texts"
@@ -117,7 +177,7 @@
                 <a
                   class="menu-panel__menu-link collapsed"
                   data-toggle="collapse"
-                  href="work-grid.html"
+                  href="work.html"
                   >Work</a
                 >
               </div>
@@ -326,6 +386,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601639/new_assets/img/work/Rave_main_xzptzk.webp"
@@ -345,6 +406,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601649/new_assets/img/work/gastoblo_main_jqws4l.webp"
@@ -366,6 +428,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601644/new_assets/img/work/Hilltop_house_main_re5gqa.webp"
@@ -385,6 +448,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601639/new_assets/img/work/Ashland_hotel_main_pczsbg.webp"
@@ -406,6 +470,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601638/new_assets/img/work/Vice_city_main_ntvegr.webp"
@@ -429,6 +494,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601634/new_assets/img/work/Rhea_main_oafedc.webp"
@@ -450,6 +516,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601642/new_assets/img/work/Matt_main_ejm8lv.webp"
@@ -469,6 +536,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601641/new_assets/img/work/W_Motors_Main_mwdr1x.webp"
@@ -490,6 +558,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601651/new_assets/img/work/Arcelia_main_mteqrn.webp"
@@ -511,6 +580,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601644/new_assets/img/work/Jade_main_kpufna.webp"
@@ -532,6 +602,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601631/new_assets/img/work/Woods_main_krlhbq.webp"
@@ -553,6 +624,7 @@
                 >
                   <div class="masonry-item__image-wrapper">
                     <img
+                      loading="lazy"
                       alt=""
                       class="masonry-item__image"
                       src="https://res.cloudinary.com/tevavid/image/upload/c_limit,q_100,w_330/v1646601652/new_assets/img/work/iri_lounge_main_jgvili.webp"
