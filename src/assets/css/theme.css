@@ -7895,7 +7895,8 @@ zoom-counter
 */
 
 .zoom-counter {
-  padding: 220px 0 60px;
+  /* padding: 220px 0 60px; */
+  padding: 20px 0 60px;
 }
 
 .zoom-counter__inner {
@@ -8112,7 +8113,8 @@ zoom-image-head
 }
 
 .no-mobile .zoom-image-head {
-  margin-bottom: 400px;
+  /* margin-bottom: 400px; */
+  margin-bottom: 40px;
 }
 
 .zoom-image-head__body {

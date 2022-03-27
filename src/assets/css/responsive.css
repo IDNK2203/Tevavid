@@ -111,7 +111,8 @@
   }
 
   .no-mobile .zoom-image-head {
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
+    margin-bottom: 30px;
   }
 
   .zoom-slider__header {
@@ -338,20 +339,20 @@
 
 @media only screen and (max-width: 767px) {
   .header_is_fixed .header__container {
+    padding-top: 8px;
     position: fixed;
-    background: rgba(255, 255, 255, 0.35);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: #fff;
     color: #242323;
     transform: translateY(100%);
-    padding-top: 8px;
     transition: background 0.5s ease, transform 0.5s ease;
-    /* box-shadow: 0 0 65px rgba(0, 0, 0, 0.07); */
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.07);
   }
   .header__wrapper {
     margin-bottom: 4px;
+  }
+
+  .project-detail__footer-link.home {
+    font-size: 24px;
   }
 
   .header__container {
