@@ -3367,7 +3367,7 @@ header-fixed
   position: absolute;
   left: 0;
   width: 100%;
-  bottom: 32px;
+  bottom: 18px;
 }
 
 .header-fixed__menu {
@@ -3496,7 +3496,7 @@ header
 
 .header__container {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 1px;
 }
 
@@ -8106,6 +8106,7 @@ zoom-image-head
 .zoom-image-head {
   position: relative;
   height: 100vh;
+  min-height: 600px;
   z-index: 2;
   color: #242323;
 }
@@ -8116,6 +8117,7 @@ zoom-image-head
 
 .zoom-image-head__body {
   height: 100%;
+  min-height: 600px;
   width: 100%;
   display: -ms-flexbox;
   display: flex;
