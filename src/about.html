@@ -33,6 +33,17 @@
       rel="stylesheet"
     />
  
+   
+ <script>
+      let launchDate = new Date("2022-04-05T00:00:00");
+
+      let currentDate = new Date();
+      if (launchDate > currentDate) {
+        window.location.replace(
+          `${window.location.protocol}//${window.location.host}/launch.html`
+        );
+      }
+    </script>
     <!--CSS-->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400"
@@ -637,7 +648,7 @@
 
             <div class="footer-studio__column col-12 col-sm-6 col-xl-3">
               <div class="footer-studio__group-title">Get In Touch</div>
-              <p>
+                           <p>
                 No. 7B Edegbe Avenue, off Giwa-Amu GRA Benin city
                 <br />
                 Edo State, 300251
@@ -645,7 +656,12 @@
               <p>
                 <a href="mailto:contact@Tevavid.com">contact@Tevavid.com</a>
               </p>
-              <p>(+234 )812 886 0738</p>
+              <p>
+                <a href="tel:+234 812 886 0738">+234 812 886 0738</a>
+              </p>
+              <p>
+                <a href="tel:+234 805 947 8772">+234 805 947 8772</a>
+              </p>
             </div>
           </div>
           <div class="footer-studio__bottom">
