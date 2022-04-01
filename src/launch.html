@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Launch Countdown| Tevavid Architecture</title>
+    <!-- meta tags -->
+    <meta
+      name="description"
+      content="                    Tevavid architectural designers (subsidiary of Ela Consults
+    International), is a completely different and unique
+    architectural designing company.We have created a
+    design process that focuses on the end users and values the
+    input of people."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:site_name" content="Tevavid" />
+    <meta property="og:title" content="Home | Tevavid" />
+    <meta property="“og:type”" content="website" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+    />
+    <meta property="og:url" content="https://tevavid.com/" />
+    <meta
+      property="og:description"
+      content="                    Tevavid architectural designers (subsidiary of Ela Consults
+    International), is a completely different and unique
+    architectural designing company.We have created a
+    design process that focuses on the end users and values the
+    input of people"
+    />
+    <meta
+      property="twitter:image"
+      content="https://res.cloudinary.com/tevavid/image/upload/w_auto,q_100,h_35,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYBLACK_VARIANT_300x_lmh9ov.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@tevavid" />
+
+    <script>
+      function postLaunchRedirect() {
+        let launchDate = new Date("2022-04-05T00:00:00");
+        let currentDate = new Date();
+        if (launchDate < currentDate) {
+          window.location.replace(
+            `${window.location.protocol}//${window.location.host}/`
+          );
+        }
+      }
+      setInterval(() => {
+        postLaunchRedirect();
+      }, 2000);
+    </script>
+    <!--CSS-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preload" href="styles.css"> -->
+    <link
+      rel="preload"
+      href="assets/css/icofont.min.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!--Theme CSS-->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- No Scripts -->
+    <noscript
+      ><link rel="stylesheet" href="assets/css/icofont.min.css"
+    /></noscript>
+
+    <!--./new_assets/Favicons-->
+    <link
+      href="./apple-touch-icon.png"
+      rel="apple-touch-icon"
+      sizes="180x180"
+    />
+    <link
+      href="./favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      href="./favicon-16x16.png"
+      rel="icon"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link href="./site.webmanifest" rel="manifest" />
+    <link color="#5bbad5" href="./safari-pinned-tab.svg" rel="mask-icon" />
+    <link href="./favicon.ico" rel="shortcut icon" />
+    <meta content="#da532c" name="msapplication-TileColor" />
+    <!--<meta content="favicons/browserconfig.xml" name="msapplication-config" /> -->
+    <meta content="#ffffff" name="theme-color" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1DY3TDEJT2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-1DY3TDEJT2");
+    </script>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+      }
+      .brand-box {
+        margin-bottom: 40px;
+        content: url("https://res.cloudinary.com/tevavid/image/upload/w_auto,h_100,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png");
+        height: 100px;
+      }
+      .main-content {
+        align-items: center;
+        background: url("https://raw.githubusercontent.com/ThesllaDev/Launch-Countdown-Timer/1226d4c5d0ff2d60330da17c87bbf6cf426b3b9c/assets/img/bg-stars.svg"),
+          url("https://raw.githubusercontent.com/ThesllaDev/Launch-Countdown-Timer/1226d4c5d0ff2d60330da17c87bbf6cf426b3b9c/assets/img/pattern-hills.svg")
+            no-repeat;
+        background-color: #191a24;
+        background-position: bottom;
+        display: flex;
+        flex-flow: column nowrap;
+        font-family: "Red Hat Text", sans-serif;
+        min-height: 100vh;
+        justify-content: flex-start;
+        line-height: 1.5;
+
+        padding-top: 15vh;
+        position: relative;
+      }
+      .main-content .main-title {
+        color: #fff;
+        font-size: 1.5em;
+        letter-spacing: 8px;
+        margin: 20px 20px 40px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .main-content .container-countdown {
+        display: flex;
+        flex-flow: row nowrap;
+      }
+      .main-content .countdown-block {
+        align-items: center;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-right: 30px;
+      }
+      .main-content .countdown-block:last-child {
+        margin-right: 0;
+      }
+      .main-content .countdown-block .subtitle {
+        color: #8486a9;
+      }
+      .main-content .time-element {
+        background-color: #33354d;
+        border-radius: 8px;
+        box-shadow: 0px 8px 0px 0px #16151d;
+        color: #f24a00;
+        font-size: 5.5em;
+        height: 140px;
+        line-height: 138px;
+        margin-bottom: 27px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        width: 150px;
+      }
+      .main-content .time-element::before,
+      .main-content .time-element::after {
+        background: #24242e;
+        border-radius: 50%;
+        content: "";
+        height: 10px;
+        position: absolute;
+        top: calc(50% - 5px);
+        width: 10px;
+        z-index: 6;
+      }
+      .main-content .time-element::before {
+        left: -5px;
+      }
+      .main-content .time-element::after {
+        right: -5px;
+      }
+      .main-content .time-element > span {
+        left: 0;
+        position: absolute;
+        right: 0;
+      }
+      .main-content .time-element .top {
+        background-color: #2a2a41;
+        transform-origin: 50% 100%;
+        transform: perspective(200px);
+        z-index: 3;
+      }
+      .main-content .time-element .top::after,
+      .main-content .time-element .bottom-back::after {
+        border-bottom: 1px solid #24242e;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+      }
+      .main-content .time-element .bottom {
+        z-index: 1;
+      }
+      .main-content .time-element .bottom::before {
+        background-color: #33354d;
+        content: "";
+        display: block;
+        height: 50%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+      .main-content .time-element .bottom-back {
+        background-color: #33354d;
+        height: 50%;
+        overflow: hidden;
+        top: 0;
+        z-index: 2;
+      }
+      .main-content .time-element .bottom-back span {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .main-content .time-element .top,
+      .main-content .time-element .top-back {
+        backface-visibility: hidden;
+        height: 50%;
+        overflow: hidden;
+      }
+      .main-content .time-element .top-back {
+        background-color: #33354d;
+        bottom: 0;
+        transform-origin: 50% 0;
+        transform: perspective(200px) rotateX(180deg);
+        z-index: 4;
+      }
+      .main-content .time-element .top-back span {
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: -100%;
+      }
+      .main-content .attribution {
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+        text-align: center;
+      }
+      .main-content .attribution .attribution-text {
+        color: #8486a9;
+      }
+      .main-content .attribution .social-medias {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+      }
+      .main-content .attribution .social-medias .social-links {
+        margin: 10px;
+        font-size: 50px;
+      }
+      .main-content .attribution .social-links,
+      .main-content .attribution a {
+        color: #fff;
+      }
+      .main-content .attribution .social-links:hover,
+      .main-content .attribution a:hover {
+        color: #f24a00;
+      }
+      .main-content .attribution .social-links:focus,
+      .main-content .attribution a:focus {
+        color: #f24a00;
+        outline: #fff dotted 3px;
+        outline-offset: 0.5em;
+      }
+      @media only screen and (max-width: 768px) {
+        .main-content .time-element {
+          border-radius: 4px;
+          box-shadow: 0px 4px 0px 0px #16151d;
+          font-size: 3.5em;
+          height: 100px;
+          line-height: 90px;
+          margin-bottom: 15px;
+          width: 110px;
+        }
+        .main-content .countdown-block .subtitle {
+          font-size: 1.5rem;
+        }
+        .main-content .container-countdown {
+          flex-flow: row wrap;
+          justify-content: space-around;
+        }
+        .brand-box {
+          content: url("https://res.cloudinary.com/tevavid/image/upload/w_auto,h_45,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png");
+          height: 45px;
+        }
+        .main-content .countdown-block {
+          margin-right: 0;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="page">
+    <div style="display: none">
+      <!-- svg sprite-->
+      <svg
+        style="width: 0; height: 0; visibility: hidden"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <symbol id="icon_ion-icon-apps" viewBox="0 0 512 512">
+          <path
+            d="M96 176h80V96H96v80zm120 240h80v-80h-80v80zm-120 0h80v-80H96v80zm0-120h80v-80H96v80zm120 0h80v-80h-80v80zM336 96v80h80V96h-80zm-120 80h80V96h-80v80zm120 120h80v-80h-80v80zm0 120h80v-80h-80v80z"
+          />
+        </symbol>
+      </svg>
+    </div>
+    <div class="page__inner animsition">
+      <main class="main-content">
+        <h1 class="main-title">We're launching soon</h1>
+        <div class="brand-box">
+          <img
+            class="text_logo"
+            src="https://res.cloudinary.com/tevavid/image/upload/w_auto,h_100,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png"
+            alt="logo_texts"
+            srcset=""
+            height="100px"
+          />
+        </div>
+        <div class="container-countdown">
+          <section class="countdown-block">
+            <span class="days time-element">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <h2 class="subtitle">Days</h2>
+          </section>
+          <section class="countdown-block">
+            <span class="hours time-element">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <h2 class="subtitle">Hours</h2>
+          </section>
+          <section class="countdown-block">
+            <span class="minutes time-element">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <h2 class="subtitle">Minutes</h2>
+          </section>
+          <section class="countdown-block">
+            <span class="seconds time-element">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <h2 class="subtitle">Seconds</h2>
+          </section>
+        </div>
+        <!-- <footer class="attribution">
+          <p class="attribution-text">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/ThesllaDev" target="_blank"
+              >ThesllaDev</a
+            >.
+          </p>
+          <nav>
+            <ul class="social-medias">
+              <li class="social-links">
+                <a href="https://github.com/ThesllaDev" target="_blank">
+                  <i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/thalles-augusto/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="social-links">
+                <a href="https://codepen.io/theslladev" target="_blank">
+                  <i class="fab fa-codepen"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </footer> -->
+      </main>
+    </div>
+    <script defer>
+      // let brandImg = document.querySelector(".brand-box img");
+      // function myFunction(x) {
+      //   if (x.matches) {
+      //     // If media query matches
+      //     brandImg.src =
+      //       "https://res.cloudinary.com/tevavid/image/upload/w_auto,h_45,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png";
+      //     brandImg.height = "45";
+      //   } else {
+      //     brandImg.src =
+      //       "https://res.cloudinary.com/tevavid/image/upload/w_auto,h_100,q_100,c_limit,f_webp/v1646601637/new_assets/img/TEVAVID_NAME_ONLYWHITE_VARIANT_300x_qzligm.png";
+      //     brandImg.height = "100";
+      //   }
+      // }
+
+      // var x = window.matchMedia("(max-width: 700px)");
+      // myFunction(x); // Call listener function at run time
+      // x.addEventListener(myFunction);
+    </script>
+    <!--JS-->
+    <script src="assets/js/launch.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0c9ec2dc89.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
